@@ -10,6 +10,15 @@ Stage L3 2020
 * autre idée pour analyser l'objet ?
 * Commencer à lire la généralisation à la dimension n (commencer à comprendre le théorème central 5.1 surtout).
 
+### Pour lundi 06/04
+
+* reprendre tout en changeant de convention: angles par rapport a x1 sens trigo
+* lem 1: préciser pourquoi la proj de T(J) contient la proj de J (intervalle plus gros...)
+* lem 2: à modifier, voir si on peut enlever le "privé de" et expliciter plus
+* figures: bien expliquer tout ce qu'on voit dessus (qu'on puisse les comprendre sans lire l'article)
+* faire un script qui reprend tout les autres qui permet de faire toutes les figures comme on veut
+* lem 3.1 comprendre, rédiger démo
+
 ## Comment utiliser Github ?
 
 Le fichier Readme on va y mettre toutes les infos générales (ce qu'on doit faire en ce moment, ce qui a été fait aussi). C'est un fichier Markdown, un langage web super pratique. Pour écrire un titre, tu écris "#"+ "un caractère espace" + "Titre" (ex : # Titre 1). Un sous-titre : "## Sous-titre 1" un sous sous-titre "### Sst" etc...
