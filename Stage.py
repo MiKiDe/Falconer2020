@@ -1,13 +1,12 @@
 import numpy as np
 import pylab as plt
-from matplotlib.patches import Arc
-from matplotlib.lines import Line2D
 import math
 
-plt.style.use('seaborn-whitegrid')
+plt.style.use('seaborn-whitegrid') #Juste pour faire des figures un peu plus fancy qu'avec le style par défaut
+
 """ Paramètres """
 theta=np.pi/8
-beta = theta + np.pi/2 #J'ai mis beta plutot que theta pour pas confondre les angles quand on lira l'article
+#beta = theta + np.pi/2 #J'ai mis beta plutot que theta pour pas confondre les angles quand on lira l'article (inutile pour le moment)
 a=-1/np.tan(theta)
 
 ## Figure 1
@@ -91,7 +90,7 @@ plt.clf()
 plt.xticks([])
 plt.yticks([])
 
-a=1/np.tan(theta)
+a=1/np.tan(theta) #On redéfinit a ici parce qu'on veut un angle de signe opposé 
 u=np.array([1,a])/np.sqrt(1+a**2)
 
 J=(np.array([0.3,-0.3]),np.array([1,-0.2]))
@@ -208,7 +207,7 @@ plt.ylabel(r'$x_2$')
 plt.show()
 plt.show()
 
-## La vraie fonction E
+## La vraie fonction E (pas encore finie, j'ai fais un algo en pseudo code mais ce sera fini plus tard)
 
 def E(J,s,m):  #renvoie la liste des nouveaux segments
     alpha=np.pi/(4*s)
