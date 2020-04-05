@@ -12,9 +12,9 @@ Stage L3 2020
 
 ### Pour lundi 06/04
 
-* reprendre tout en changeant de convention: angles par rapport a x1 sens trigo
-* lem 2.1: préciser pourquoi la proj de T(J) contient la proj de J (intervalle plus gros...)
-* lem 2.2: à modifier, voir si on peut enlever le "privé de" et expliciter plus
+* reprendre tout en changeant de convention: angles par rapport a x1 sens trigo (Plus tard)
+* lem 2.1: préciser pourquoi la proj de T(J) contient la proj de J (intervalle plus gros...) (done!)
+* lem 2.2: à modifier, voir si on peut enlever le "privé de" et expliciter plus 
 * figures: bien expliquer tout ce qu'on voit dessus (qu'on puisse les comprendre sans lire l'article)
 * faire un script qui reprend tout les autres qui permet de faire toutes les figures comme on veut
 * comprendre démo lem 2.4
