@@ -19,6 +19,8 @@ Stage L3 2020
 * faire un script qui reprend tout les autres qui permet de faire toutes les figures comme on veut
 * comprendre démo lem 2.4
 * lem 3.1 comprendre, rédiger démo
+### Suite :
+* Regarder IFS algorithms pour la fonction Python J
 
 ## Comment utiliser Github ?
 
