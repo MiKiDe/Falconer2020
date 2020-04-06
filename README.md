@@ -21,6 +21,7 @@ Stage L3 2020
 * lem 3.1 comprendre, rédiger démo
 ### Suite :
 * Regarder IFS algorithms pour la fonction Python J
+* Préciser les règles de construction des différents lemmes
 
 ## Comment utiliser Github ?
 
