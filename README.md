@@ -29,16 +29,16 @@ Stage L3 2020
 * Expliquer philosophie de ce qu'on fait entre les lemmes (quand on aura comprit)
 * Lemme 1 : 
   * "proj plus grandes vers le droite" mais les extrémités gauches coïncident - réécrire cette partie proprement, attention à l'angle, nommer des vecteurs pour les points. 
-  * Reprendre la phrase en dessous de Figure 4
-  * Préciser que r,s sont des entiers
-  * Changer u pour la suite récurrente pour autre chose
+  * Reprendre la phrase en dessous de Figure 4 (fait)
+  * Préciser que r,s sont des entiers (fait)
+  * Changer u pour la suite récurrente pour autre chose (fait)
   * Refaire les figures non refaites,
   * expliciter la relation de récurrence
-  * cos^r \alpha 
+  * cos^r \alpha (ok)
 * Lemme 2 : 
   * Reprendre le pavé que j'ai écrit pour que ce soit plus clair et moins de blabla
 * Lemme 3 :
-  * remplacer {}^tA par A^T
+  * remplacer {}^tA par A^T (ok)
 
 ### Suite :
 * Regarder IFS algorithms pour la fonction Python J
