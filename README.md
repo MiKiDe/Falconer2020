@@ -22,6 +22,7 @@ Stage L3 2020
 
 ### suite
 
+* Remplir la partie "prérequis théoriques" de l'overleaf, en lisant les chapitres de Lee
 * Faire des minis lemmes pour tous les trucs style T(J)
 * Remplir section notations
 * Avant lemme 1 : dessin x1,x2, mieux définir Ptheta, parler de BON (u_\theta, orth), (mesure de Haussdorf 1 et pas L1 : plus tard en fait).
