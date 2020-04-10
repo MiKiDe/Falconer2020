@@ -26,6 +26,7 @@ Stage L3 2020
 * Faire des minis lemmes pour tous les trucs style T(J)
 * Remplir section notations
 * Avant lemme 1 : dessin x1,x2, mieux définir Ptheta, parler de BON (u_\theta, orth), (mesure de Haussdorf 1 et pas L1 : plus tard en fait).
+* Expliquer philosophie de ce qu'on fait entre les lemmes (quand on aura comprit)
 * Lemme 1 : 
   * "proj plus grandes vers le droite" mais les extrémités gauches coïncident - réécrire cette partie proprement, attention à l'angle, nommer des vecteurs pour les points. 
   * Reprendre la phrase en dessous de Figure 4
@@ -36,6 +37,9 @@ Stage L3 2020
   * cos^r \alpha 
 * Lemme 2 : 
   * Reprendre le pavé que j'ai écrit pour que ce soit plus clair et moins de blabla
+* Lemme 3 :
+  * remplacer {}^tA par A^T
+
 ### Suite :
 * Regarder IFS algorithms pour la fonction Python J
 * Préciser les règles de construction des différents lemmes
