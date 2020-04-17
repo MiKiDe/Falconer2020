@@ -1,27 +1,18 @@
 # Falconer2020
 Stage L3 2020
 
-## Plan de travail :
+# Plan de travail :
 
-* Rédiger la première partie en Latex (jusqu'au lemme 2.4 inclus et si temps jusqu'au lemme 3.1)
-* Faire un premier Script Python pour faire les figures
+## Aspects théoriques :
+### Mesure et dimension de Haussdorff
+* Mesure et dimension de Haussdorf : définitions.
 * quelle est la dimension de Haussdorff de l'object fractal du lemme 2.1 lorsque s -> +\infty ?
 * quelle est la mesure de Haussdorff associée ? (cf. notion de mesure de Haussdorff)
-* autre idée pour analyser l'objet ?
-* Commencer à lire la généralisation à la dimension n (commencer à comprendre le théorème central 5.1 surtout).
-
-### Pour lundi 06/04
-
-* reprendre tout en changeant de convention: angles par rapport a x1 sens trigo (Plus tard)
-* lem 2.1: préciser pourquoi la proj de T(J) contient la proj de J (intervalle plus gros...) (done!)
-* lem 2.2: à modifier, voir si on peut enlever le "privé de" et expliciter plus 
+### Variété différentielles
+* Chapitres à lire : 1 et 21 (puis 2,3,4 14 16 ??)
+## Rédaction du rapport :
 * figures: bien expliquer tout ce qu'on voit dessus (qu'on puisse les comprendre sans lire l'article)
-* faire un script qui reprend tout les autres qui permet de faire toutes les figures comme on veut
-* comprendre démo lem 2.4
 * lem 3.1 comprendre, rédiger démo
-
-### suite
-
 * Remplir la partie "prérequis théoriques" de l'overleaf, en lisant les chapitres de Lee
 * Faire des minis lemmes pour tous les trucs style T(J)
 * Remplir section notations
@@ -29,17 +20,13 @@ Stage L3 2020
 * Expliquer philosophie de ce qu'on fait entre les lemmes (quand on aura comprit)
 * Lemme 1 : 
   * "proj plus grandes vers le droite" mais les extrémités gauches coïncident - réécrire cette partie proprement, attention à l'angle, nommer des vecteurs pour les points. 
-  * Reprendre la phrase en dessous de Figure 4 (fait)
-  * Préciser que r,s sont des entiers (fait)
-  * Changer u pour la suite récurrente pour autre chose (fait)
   * Refaire les figures non refaites,
   * expliciter la relation de récurrence
-  * cos^r \alpha (ok)
 * Lemme 2 : 
   * Reprendre le pavé que j'ai écrit pour que ce soit plus clair et moins de blabla
 * Lemme 3 :
-  * remplacer {}^tA par A^T (ok)
-
-### Suite :
+  * Préciser les règles de construction des différents lemmes
+## Python :
+* faire un script qui reprend tout les autres qui permet de faire toutes les figures comme on veut
 * Regarder IFS algorithms pour la fonction Python J
-* Préciser les règles de construction des différents lemmes
+
