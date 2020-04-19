@@ -19,8 +19,6 @@ Stage L3 2020
 * Avant lemme 1 : dessin x1,x2, mieux définir Ptheta, parler de BON (u_\theta, orth), (mesure de Haussdorf 1 et pas L1 : plus tard en fait).
 * Expliquer philosophie de ce qu'on fait entre les lemmes (quand on aura comprit)
 * Lemme 1 : 
-  * "proj plus grandes vers le droite" mais les extrémités gauches coïncident - réécrire cette partie proprement, attention à l'angle, nommer des vecteurs pour les points. 
-  * Refaire les figures non refaites,
   * expliciter la relation de récurrence
 * Lemme 2 : 
   * Reprendre le pavé que j'ai écrit pour que ce soit plus clair et moins de blabla
