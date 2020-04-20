@@ -27,4 +27,4 @@ Stage L3 2020
 ## Python :
 * faire un script qui reprend tout les autres qui permet de faire toutes les figures comme on veut
 * Regarder IFS algorithms pour la fonction Python J
-
+(lien : http://xymaths.free.fr/MathAppli/Fractales-IFS-Jeu-du-chaos/Jeu-du-chaos.php).
