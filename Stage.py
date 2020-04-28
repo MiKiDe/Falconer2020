@@ -254,7 +254,7 @@ plt.axis('square')
 plt.xlabel(r'$x_1$')
 plt.ylabel(r'$x_2$')
 plt.show()
-## La vraie fonction E
+## La vraie fonction E (Pas fini du tout!!!!!!!!)
 
 def E(J,s,m):  #renvoie la liste des nouveaux segments
     alpha=np.pi/(4*s)
@@ -270,7 +270,7 @@ def E(J,s,m):  #renvoie la liste des nouveaux segments
     return [(L[k]+v,L[k]) for k in range(m)],L
 
 
-## Figure n°jsaisplus
+## Figure n°jsaisplus (Pas fini non plus !!!!!!!!)
 u=np.array([1,a])/np.sqrt(1+a**2)
 def p(y):
     return np.dot(u,y)*u
