@@ -37,19 +37,26 @@ Ensuite, on va remplacer tous les segments par une multitude de segments parall�
 
 ## Slide 5
 
-On va ensuite appliquer une transformation affine pour jour sur les intervalles.
+On va ensuite appliquer une transformation affine pour jouer sur les intervalles : permet d'obtenir quasiment tout les angles (à delta près).
 
 (rappeler en revenant sur la slide précédente que chaque segment vert est en fait une union de segments parallèles).
 
 ## Slide 6
 
-Puis, en réappliquant toute la construction sur chaque segment,  et en effectuant une multitude de symétries, on obtient un beaucoup plus complexe mais avec des intervalles d’angles symétriques.
+Puis, en réappliquant toute la construction sur chaque segment, et en symétrisant les constructions par rapport à chaque segment, on obtient un ensemble beaucoup plus complexe mais avec des intervalles d’angles symétriques qui correspondent au théorème annoncé au début.
 
 INSISTER QUON A TOUT CONSTRUIT EN PYTHON, c’est une initiative de notre part
 
 ## Slide 7
 
-Je te laisse faire le texte de ça car tu sauras toujours mieux en parler que moi
+Cas de la 2D fini : maintenant généralisation à la dimension n avec les projections sur des hyperplans. 
+* présenter (n-1)-intervalles
+
+Etant donné I un (n-1)-intervalle, il existe un ensemble E union finie de (n-1)-intervalles dont la projection sur les hyperplans dont l'orthogonale est proche de (x1) contient celle de I
+et dont la projection sur "presque tout" les autres hyperplans est petite. 
+Encore une fois on peut faire varier la distance de E à I (rho), les plages d'angle (alpha et delta) et la taille de la projection de E (epsilon).
+
+* Pour quantifier la distance de pi ortho à (x1): on utilise les theta_r.
 
 ## Slide 8
 
@@ -67,7 +74,9 @@ Points importants :
 
 ## Slide 9
 
-Je te laisse faire
+th précédent : condition portant sur les theta_r(pi) qui est pas toujours défini. Pour que le théorème ait un intérêt il faut que ca soit défini pour la plupart des pi. or iff blabla
+* introduction de Gn,k car structure de variété lisse -> parties néglibeables naturelles. 
+* Muni de ces defs on a montré la prop qui est cqfd
 
 ## Slide 10
 
