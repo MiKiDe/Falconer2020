@@ -28,3 +28,14 @@ Stage L3 2020
 * faire un script qui reprend tout les autres qui permet de faire toutes les figures comme on veut
 * Regarder IFS algorithms pour la fonction Python J
 (lien : http://xymaths.free.fr/MathAppli/Fractales-IFS-Jeu-du-chaos/Jeu-du-chaos.php).
+
+
+## Pour la fin :
+* On peut tout faire pour k=n-1, faut juste adapter avec les notations de Falco pour k quelconque dans la démo du Lem 4.1
+
+* Lem 3.2 implique Cor 3.3 avec notre Lem A.4
+
+* Lem 4.1: nécessite compréhension de la topologie de Unk et de la notion de «bases of closed neighborhood»
+On le montre avec le Cor 3.3
+
+* Th 5 : avec Lem 4.1 et faut compréhension de Mnk la mesure sur Unk
