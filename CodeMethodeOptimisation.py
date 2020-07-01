@@ -122,8 +122,7 @@ def F(M):
         for k in range(N):
             s+=(f3[i,k]-f(A[i,:,k]))**2
     return s
-e=F(A)
-t=1
+
 def derf(k,X):
     if f(X)==0:
         return 0
@@ -135,7 +134,7 @@ def gradF(i,j,k,A):
 ## Boucle principale : descente de gradient
 s = 50 # seuil au deça duquel on arrête la boucle
 d=10 # Pas de la descente de gradient
-
+q = F(A)
 while q>s:
 # On choisit de faire des pas de descente plus petit à mesure qu'on se rapproche d'un minimum :
     if d<0.5:
@@ -145,14 +144,14 @@ while q>s:
     if F(A)<300:
         t=10**(-1)
 
-    q=F(A)
+    
     for k in range(N):
         for i in range(N):
             for j in range(N):
                 v=A[i,j,k]
                 m=gradF(i,j,k,A)
                 A[i,j,k]=max(0,min(v-t*m,1))
-    d=q-F(A)
+    q=F(A)
 
     print(q)
 
