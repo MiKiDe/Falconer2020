@@ -132,7 +132,7 @@ def gradF(i,j,k,A):
         return-2*derf(k,A[i,j,:])*(f1[i,j]-f(A[i,j,:]))-2*derf(i,A[:,j,k])*(f2[j,k]-f(A[:,j,k]))-2*derf(j,A[i,:,k])*(f3[i,k]-f(A[i,:,k]))
 
 ## Boucle principale : descente de gradient
-s = 80 # seuil au deça duquel on arrête la boucle
+s = 90 # seuil au deça duquel on arrête la boucle
 d = 10 # Pas de la descente de gradient
 t = 1
 q = F(A)
