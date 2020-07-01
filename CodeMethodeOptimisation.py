@@ -132,19 +132,19 @@ def gradF(i,j,k,A):
         return-2*derf(k,A[i,j,:])*(f1[i,j]-f(A[i,j,:]))-2*derf(i,A[:,j,k])*(f2[j,k]-f(A[:,j,k]))-2*derf(j,A[i,:,k])*(f3[i,k]-f(A[i,:,k]))
 
 ## Boucle principale : descente de gradient
-s = 50 # seuil au deça duquel on arrête la boucle
-d=10 # Pas de la descente de gradient
+s = 80 # seuil au deça duquel on arrête la boucle
+d = 10 # Pas de la descente de gradient
+t = 1
 q = F(A)
 while q>s:
 # On choisit de faire des pas de descente plus petit à mesure qu'on se rapproche d'un minimum :
+    l = q
     if d<0.5:
         t=10**(-3)
     if d<1:
         t=10**(-2)
-    if F(A)<300:
+    elif q<300:
         t=10**(-1)
-
-    
     for k in range(N):
         for i in range(N):
             for j in range(N):
@@ -152,9 +152,8 @@ while q>s:
                 m=gradF(i,j,k,A)
                 A[i,j,k]=max(0,min(v-t*m,1))
     q=F(A)
-
+    d=l-q
     print(q)
-
 
 
 # Figures :
